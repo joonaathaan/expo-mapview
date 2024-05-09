@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "test-app",
-    "slug": "test-app",
+    "name": "expo-mapview",
+    "slug": "expo-mapview",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -12,7 +12,11 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "<app-identifier>",
+      "config": {
+        "googleMapsApiKey": "<api-key>"
+      }
     },
     "android": {
       "adaptiveIcon": {
