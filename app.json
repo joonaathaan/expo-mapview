@@ -13,7 +13,7 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "<app-identifier>",
+      "bundleIdentifier": "net.test.expo",
       "config": {
         "googleMapsApiKey": "<api-key>"
       }
